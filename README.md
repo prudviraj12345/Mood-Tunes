@@ -169,10 +169,11 @@ App fallback (local dev):
 - Check Actions workflow run is successful.
 - Hard refresh browser after deploy.
 
-## 2) Frontend loads but songs fail
+## 2) If songs do not load
 
-- Backend not running or wrong API URL.
-- Start Flask backend locally, or set VITE_API_BASE_URL to deployed backend.
+- This usually means backend is not running, blocked, or API URL is wrong.
+- For local use, start Flask backend at http://127.0.0.1:5000.
+- For online full-stack use, deploy backend and set VITE_API_BASE_URL to that backend URL.
 
 ## 3) YouTube link fallback behavior
 
