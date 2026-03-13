@@ -1,0 +1,570 @@
+:root {
+  --bg-night: #062638;
+  --bg-sea: #0f4c5c;
+  --bg-teal: #1a936f;
+  --panel: rgba(4, 28, 39, 0.7);
+  --panel-strong: rgba(6, 36, 52, 0.88);
+  --line: rgba(176, 232, 221, 0.28);
+  --text-main: #f4fff7;
+  --text-muted: #bbded0;
+  --accent: #ffcc66;
+  --accent-strong: #ff9f1c;
+  --danger: #ff8080;
+  --radius-lg: 1.4rem;
+  --radius-md: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text-main);
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 14% 16%, rgba(255, 204, 102, 0.3), transparent 30%),
+    radial-gradient(circle at 84% 10%, rgba(26, 147, 111, 0.35), transparent 33%),
+    linear-gradient(155deg, var(--bg-night) 0%, var(--bg-sea) 54%, #0b3444 100%);
+  background-attachment: fixed;
+}
+
+.app-shell {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-shell::before,
+.app-shell::after {
+  content: "";
+  position: fixed;
+  border-radius: 999px;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.app-shell::before {
+  width: 280px;
+  height: 280px;
+  top: -80px;
+  right: -60px;
+  background: rgba(255, 159, 28, 0.2);
+}
+
+.app-shell::after {
+  width: 240px;
+  height: 240px;
+  bottom: -60px;
+  left: -30px;
+  background: rgba(44, 184, 145, 0.18);
+}
+
+.page {
+  min-height: 100vh;
+  padding: 2.25rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: min(800px, 100%);
+  padding: 2.15rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: linear-gradient(160deg, rgba(7, 48, 68, 0.86), var(--panel));
+  box-shadow: 0 25px 60px rgba(2, 14, 20, 0.45);
+  backdrop-filter: blur(8px);
+  animation: riseIn 420ms ease-out both;
+}
+
+.hero-card {
+  text-align: center;
+}
+
+.start-hero {
+  position: relative;
+}
+
+.start-wave {
+  margin: 0.8rem auto 1rem;
+  width: fit-content;
+  display: flex;
+  gap: 0.3rem;
+  align-items: flex-end;
+}
+
+.wave-bar {
+  width: 0.28rem;
+  height: 1rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffe8ad, #ffaf3f);
+  animation: bounceWave 1.05s ease-in-out infinite;
+}
+
+.bar-2 {
+  animation-delay: 0.1s;
+}
+
+.bar-3 {
+  animation-delay: 0.2s;
+}
+
+.bar-4 {
+  animation-delay: 0.3s;
+}
+
+.bar-5 {
+  animation-delay: 0.4s;
+}
+
+.feature-pills {
+  margin: 0.2rem auto 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.feature-pill {
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: #d6fff4;
+  border: 1px solid rgba(176, 232, 221, 0.36);
+  padding: 0.24rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(6, 56, 77, 0.5);
+}
+
+.vibe-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.1rem;
+}
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.65rem;
+  background: linear-gradient(140deg, var(--accent), #ffe5a8);
+  color: #2f2500;
+  font-weight: 800;
+  font-size: 0.82rem;
+  box-shadow: 0 8px 18px rgba(255, 180, 56, 0.25);
+}
+
+.brand-name {
+  font-family: "Bricolage Grotesque", "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.brand-pill {
+  margin-left: auto;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffe3a6;
+  border: 1px solid rgba(255, 204, 102, 0.5);
+  border-radius: 999px;
+  padding: 0.28rem 0.56rem;
+  background: rgba(255, 204, 102, 0.12);
+}
+
+.sticker-zone {
+  pointer-events: none;
+}
+
+.sticker {
+  position: absolute;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.sticker-1 {
+  top: 1rem;
+  right: 1rem;
+  background: rgba(13, 178, 130, 0.32);
+  color: #d2fff0;
+  transform: rotate(8deg);
+}
+
+.sticker-2 {
+  top: 3rem;
+  right: 2.6rem;
+  background: rgba(255, 165, 40, 0.32);
+  color: #fff2cf;
+  transform: rotate(-5deg);
+}
+
+.sticker-3 {
+  top: 1rem;
+  right: 1.2rem;
+  background: rgba(20, 160, 200, 0.28);
+  color: #ddf8ff;
+  transform: rotate(7deg);
+}
+
+.sticker-4 {
+  top: 3.1rem;
+  right: 2.8rem;
+  background: rgba(255, 204, 102, 0.28);
+  color: #fff1c9;
+  transform: rotate(-4deg);
+}
+
+.title {
+  margin: 0;
+  font-family: "Bricolage Grotesque", "Space Grotesk", sans-serif;
+  font-size: clamp(1.8rem, 4.8vw, 2.9rem);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin: 0.95rem auto 1.6rem;
+  max-width: 560px;
+  line-height: 1.55;
+}
+
+.grid-list {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 0.8rem;
+}
+
+.vibe-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+}
+
+.language-grid {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.option-btn,
+.primary-btn,
+.secondary-btn,
+.text-btn {
+  border: 0;
+  cursor: pointer;
+  transition: transform 0.22s ease, opacity 0.22s ease, box-shadow 0.22s ease;
+  font-family: inherit;
+}
+
+.option-btn,
+.primary-btn,
+.secondary-btn {
+  border-radius: var(--radius-md);
+  padding: 0.76rem 1rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+
+.option-btn {
+  color: var(--text-main);
+  border: 1px solid rgba(173, 228, 216, 0.3);
+  background: linear-gradient(160deg, rgba(13, 65, 85, 0.95), rgba(10, 46, 60, 0.95));
+}
+
+.vibe-option {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-height: 86px;
+  opacity: 0;
+  animation: floatUp 420ms ease-out forwards;
+}
+
+.vibe-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+}
+
+.vibe-title {
+  font-weight: 700;
+}
+
+.vibe-subtitle {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
+.vibe-icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.65rem;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.vibe-sun .vibe-icon {
+  background: radial-gradient(circle at 35% 35%, #ffe4a5, #ffb347 65%);
+}
+
+.vibe-moon .vibe-icon {
+  background: linear-gradient(160deg, #d2dcff, #7e95d9);
+}
+
+.vibe-wave .vibe-icon {
+  background: linear-gradient(160deg, #9af4e0, #3ac4a3);
+}
+
+.vibe-bolt .vibe-icon {
+  background: linear-gradient(160deg, #ffe08a, #ff9f1c);
+}
+
+.vibe-heart .vibe-icon {
+  background: linear-gradient(160deg, #ffb3c6, #ff6f91);
+}
+
+.vibe-icon::after {
+  content: "";
+  position: absolute;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 0.3rem;
+  border: 2px solid rgba(6, 30, 44, 0.34);
+  top: 0.52rem;
+  left: 0.52rem;
+}
+
+.language-option {
+  min-height: 78px;
+}
+
+.lang-logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.65rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #eafff7;
+  flex-shrink: 0;
+}
+
+.option-btn:hover,
+.primary-btn:hover,
+.secondary-btn:hover {
+  transform: translateY(-2px) scale(1.01);
+}
+
+.option-btn:active,
+.primary-btn:active,
+.secondary-btn:active {
+  transform: translateY(0);
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: #222000;
+  box-shadow: 0 10px 20px rgba(255, 159, 28, 0.22);
+}
+
+.primary-btn.small {
+  padding: 0.5rem 0.85rem;
+  font-size: 0.92rem;
+}
+
+.secondary-btn {
+  color: var(--text-main);
+  border: 1px solid rgba(176, 232, 221, 0.3);
+  background: rgba(13, 65, 85, 0.6);
+}
+
+.secondary-btn.small {
+  padding: 0.5rem 0.85rem;
+  font-size: 0.92rem;
+}
+
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.text-btn {
+  margin-top: 1rem;
+  background: transparent;
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.song-list {
+  margin-top: 1.1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.song-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: center;
+  border: 1px solid rgba(176, 232, 221, 0.24);
+  border-radius: 0.95rem;
+  padding: 0.82rem 0.9rem;
+  background: linear-gradient(160deg, rgba(4, 31, 44, 0.8), rgba(8, 43, 58, 0.85));
+}
+
+.song-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.song-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.song-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(255, 204, 102, 0.18);
+  border: 1px solid rgba(255, 204, 102, 0.45);
+  color: #ffe3a6;
+}
+
+.song-title {
+  font-weight: 700;
+}
+
+.song-title.large {
+  font-size: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+.status-text {
+  margin-top: 0.95rem;
+  color: var(--text-muted);
+}
+
+.error-text {
+  color: var(--danger);
+}
+
+.player-card {
+  text-align: center;
+}
+
+.meta-text {
+  color: var(--text-muted);
+}
+
+audio {
+  margin-top: 1rem;
+  width: min(520px, 100%);
+  border-radius: 0.7rem;
+}
+
+.player-controls {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceWave {
+  0%,
+  100% {
+    height: 0.8rem;
+    opacity: 0.9;
+  }
+  50% {
+    height: 1.9rem;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    padding: 1.4rem;
+    border-radius: 1.1rem;
+  }
+
+  .subtitle {
+    margin-bottom: 1.2rem;
+  }
+
+  .brand-pill {
+    margin-left: 0;
+  }
+
+  .sticker {
+    display: none;
+  }
+
+  .song-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "title": "Sunrise Smile",
+    "mood": "happy",
+    "language": "english",
+    "url": "songs/sunrise_smile.mp3",
+    "youtube_channel": "https://www.youtube.com/@ChillhopMusic"
+  },
+  {
+    "title": "Golden Morning",
+    "mood": "happy",
+    "language": "english",
+    "url": "songs/golden_morning.mp3",
+    "youtube_channel": "https://www.youtube.com/@NoCopyrightSounds"
+  },
+  {
+    "title": "Skyline Groove",
+    "mood": "happy",
+    "language": "english",
+    "url": "songs/skyline_groove.mp3",
+    "youtube_channel": "https://www.youtube.com/@musicbyAden"
+  },
+  {
+    "title": "Bright Day",
+    "mood": "happy",
+    "language": "hindi",
+    "url": "songs/bright_day.mp3",
+    "youtube_channel": "https://www.youtube.com/@TSeries"
+  },
+  {
+    "title": "Khushiyon Ka Safar",
+    "mood": "happy",
+    "language": "hindi",
+    "url": "songs/khushiyon_ka_safar.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicIndia"
+  },
+  {
+    "title": "Masti Beats",
+    "mood": "happy",
+    "language": "hindi",
+    "url": "songs/masti_beats.mp3",
+    "youtube_channel": "https://www.youtube.com/@saregamamusic"
+  },
+  {
+    "title": "Butta Bomma",
+    "mood": "happy",
+    "language": "telugu",
+    "url": "songs/buttabomma.mp3",
+    "youtube_channel": "https://www.youtube.com/@adityamusic"
+  },
+  {
+    "title": "Navvu Navvule",
+    "mood": "happy",
+    "language": "telugu",
+    "url": "songs/navvu_navvule.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Utsaham",
+    "mood": "happy",
+    "language": "telugu",
+    "url": "songs/utsaham.mp3",
+    "youtube_channel": "https://www.youtube.com/@MRTMusic"
+  },
+  {
+    "title": "Happy Waves",
+    "mood": "happy",
+    "language": "tamil",
+    "url": "songs/happy_waves.mp3",
+    "youtube_channel": "https://www.youtube.com/@thinkmusicindia"
+  },
+  {
+    "title": "Suttrum Vizhi",
+    "mood": "happy",
+    "language": "tamil",
+    "url": "songs/suttrum_vizhi.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicSouth"
+  },
+  {
+    "title": "Vetri Vibe",
+    "mood": "happy",
+    "language": "tamil",
+    "url": "songs/vetri_vibe.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Rain Window",
+    "mood": "sad",
+    "language": "english",
+    "url": "songs/rain_window.mp3",
+    "youtube_channel": "https://www.youtube.com/@MrSuicideSheep"
+  },
+  {
+    "title": "Silent Street",
+    "mood": "sad",
+    "language": "english",
+    "url": "songs/silent_street.mp3",
+    "youtube_channel": "https://www.youtube.com/@alexrainbirdMusic"
+  },
+  {
+    "title": "Last Letter",
+    "mood": "sad",
+    "language": "english",
+    "url": "songs/last_letter.mp3",
+    "youtube_channel": "https://www.youtube.com/@ChillhopMusic"
+  },
+  {
+    "title": "Broken Strings",
+    "mood": "sad",
+    "language": "hindi",
+    "url": "songs/broken_strings.mp3",
+    "youtube_channel": "https://www.youtube.com/@TSeries"
+  },
+  {
+    "title": "Aansu Raat",
+    "mood": "sad",
+    "language": "hindi",
+    "url": "songs/aansu_raat.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicIndia"
+  },
+  {
+    "title": "Yaadon Ka Sheher",
+    "mood": "sad",
+    "language": "hindi",
+    "url": "songs/yaadon_ka_sheher.mp3",
+    "youtube_channel": "https://www.youtube.com/@saregamamusic"
+  },
+  {
+    "title": "Ninnu Choodaka",
+    "mood": "sad",
+    "language": "telugu",
+    "url": "songs/ninnu_choodaka.mp3",
+    "youtube_channel": "https://www.youtube.com/@adityamusic"
+  },
+  {
+    "title": "Neeli Noppi",
+    "mood": "sad",
+    "language": "telugu",
+    "url": "songs/neeli_noppi.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Marichipoleka",
+    "mood": "sad",
+    "language": "telugu",
+    "url": "songs/marichipoleka.mp3",
+    "youtube_channel": "https://www.youtube.com/@MRTMusic"
+  },
+  {
+    "title": "Mazhaiyin Nizhal",
+    "mood": "sad",
+    "language": "tamil",
+    "url": "songs/mazhaiyin_nizhal.mp3",
+    "youtube_channel": "https://www.youtube.com/@thinkmusicindia"
+  },
+  {
+    "title": "Ninaivugal",
+    "mood": "sad",
+    "language": "tamil",
+    "url": "songs/ninaivugal.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicSouth"
+  },
+  {
+    "title": "Iravu Paadal",
+    "mood": "sad",
+    "language": "tamil",
+    "url": "songs/iravu_paadal.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Ocean Air",
+    "mood": "chill",
+    "language": "english",
+    "url": "songs/ocean_air.mp3",
+    "youtube_channel": "https://www.youtube.com/@ChillhopMusic"
+  },
+  {
+    "title": "Loft Lights",
+    "mood": "chill",
+    "language": "english",
+    "url": "songs/loft_lights.mp3",
+    "youtube_channel": "https://www.youtube.com/@LofiGirl"
+  },
+  {
+    "title": "Cloud Room",
+    "mood": "chill",
+    "language": "english",
+    "url": "songs/cloud_room.mp3",
+    "youtube_channel": "https://www.youtube.com/@ChilledCowPlaylists"
+  },
+  {
+    "title": "Night Drive",
+    "mood": "chill",
+    "language": "hindi",
+    "url": "songs/night_drive.mp3",
+    "youtube_channel": "https://www.youtube.com/@TSeries"
+  },
+  {
+    "title": "Shaam Cafe",
+    "mood": "chill",
+    "language": "hindi",
+    "url": "songs/shaam_cafe.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicIndia"
+  },
+  {
+    "title": "Sukun Ride",
+    "mood": "chill",
+    "language": "hindi",
+    "url": "songs/sukun_ride.mp3",
+    "youtube_channel": "https://www.youtube.com/@saregamamusic"
+  },
+  {
+    "title": "Velugu Vibes",
+    "mood": "chill",
+    "language": "telugu",
+    "url": "songs/velugu_vibes.mp3",
+    "youtube_channel": "https://www.youtube.com/@adityamusic"
+  },
+  {
+    "title": "Nidurinche",
+    "mood": "chill",
+    "language": "telugu",
+    "url": "songs/nidurinche.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Mabbullo",
+    "mood": "chill",
+    "language": "telugu",
+    "url": "songs/mabbullo.mp3",
+    "youtube_channel": "https://www.youtube.com/@MRTMusic"
+  },
+  {
+    "title": "Breeze Path",
+    "mood": "chill",
+    "language": "tamil",
+    "url": "songs/breeze_path.mp3",
+    "youtube_channel": "https://www.youtube.com/@thinkmusicindia"
+  },
+  {
+    "title": "Minnal Light",
+    "mood": "chill",
+    "language": "tamil",
+    "url": "songs/minnal_light.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicSouth"
+  },
+  {
+    "title": "Suthanthiram",
+    "mood": "chill",
+    "language": "tamil",
+    "url": "songs/suthanthiram.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Pulse Run",
+    "mood": "energetic",
+    "language": "english",
+    "url": "songs/pulse_run.mp3",
+    "youtube_channel": "https://www.youtube.com/@NoCopyrightSounds"
+  },
+  {
+    "title": "Edge Sprint",
+    "mood": "energetic",
+    "language": "english",
+    "url": "songs/edge_sprint.mp3",
+    "youtube_channel": "https://www.youtube.com/@trapnation"
+  },
+  {
+    "title": "Voltage Rise",
+    "mood": "energetic",
+    "language": "english",
+    "url": "songs/voltage_rise.mp3",
+    "youtube_channel": "https://www.youtube.com/@Monstercat"
+  },
+  {
+    "title": "Fire Beat",
+    "mood": "energetic",
+    "language": "hindi",
+    "url": "songs/fire_beat.mp3",
+    "youtube_channel": "https://www.youtube.com/@TSeries"
+  },
+  {
+    "title": "Dhamaka Run",
+    "mood": "energetic",
+    "language": "hindi",
+    "url": "songs/dhamaka_run.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicIndia"
+  },
+  {
+    "title": "Jeet Anthem",
+    "mood": "energetic",
+    "language": "hindi",
+    "url": "songs/jeet_anthem.mp3",
+    "youtube_channel": "https://www.youtube.com/@saregamamusic"
+  },
+  {
+    "title": "Mass Entry",
+    "mood": "energetic",
+    "language": "telugu",
+    "url": "songs/mass_entry.mp3",
+    "youtube_channel": "https://www.youtube.com/@adityamusic"
+  },
+  {
+    "title": "Racha Ramp",
+    "mood": "energetic",
+    "language": "telugu",
+    "url": "songs/racha_ramp.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Thunder Step",
+    "mood": "energetic",
+    "language": "telugu",
+    "url": "songs/thunder_step.mp3",
+    "youtube_channel": "https://www.youtube.com/@MRTMusic"
+  },
+  {
+    "title": "Thara Local",
+    "mood": "energetic",
+    "language": "tamil",
+    "url": "songs/thara_local.mp3",
+    "youtube_channel": "https://www.youtube.com/@thinkmusicindia"
+  },
+  {
+    "title": "Vedi Vedi",
+    "mood": "energetic",
+    "language": "tamil",
+    "url": "songs/vedi_vedi.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicSouth"
+  },
+  {
+    "title": "Aatam Blast",
+    "mood": "energetic",
+    "language": "tamil",
+    "url": "songs/aatam_blast.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Soft Letters",
+    "mood": "romantic",
+    "language": "english",
+    "url": "songs/soft_letters.mp3",
+    "youtube_channel": "https://www.youtube.com/@Kina"
+  },
+  {
+    "title": "Velvet Moon",
+    "mood": "romantic",
+    "language": "english",
+    "url": "songs/velvet_moon.mp3",
+    "youtube_channel": "https://www.youtube.com/@ChillhopMusic"
+  },
+  {
+    "title": "Heartline",
+    "mood": "romantic",
+    "language": "english",
+    "url": "songs/heartline.mp3",
+    "youtube_channel": "https://www.youtube.com/@alexrainbirdMusic"
+  },
+  {
+    "title": "Dil Ki Dhadkan",
+    "mood": "romantic",
+    "language": "hindi",
+    "url": "songs/dil_ki_dhadkan.mp3",
+    "youtube_channel": "https://www.youtube.com/@TSeries"
+  },
+  {
+    "title": "Ishq Lamha",
+    "mood": "romantic",
+    "language": "hindi",
+    "url": "songs/ishq_lamha.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicIndia"
+  },
+  {
+    "title": "Pyar Nazm",
+    "mood": "romantic",
+    "language": "hindi",
+    "url": "songs/pyar_nazm.mp3",
+    "youtube_channel": "https://www.youtube.com/@saregamamusic"
+  },
+  {
+    "title": "Neeli Kanule",
+    "mood": "romantic",
+    "language": "telugu",
+    "url": "songs/neeli_kanule.mp3",
+    "youtube_channel": "https://www.youtube.com/@adityamusic"
+  },
+  {
+    "title": "Prema Deepam",
+    "mood": "romantic",
+    "language": "telugu",
+    "url": "songs/prema_deepam.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  },
+  {
+    "title": "Kalala Kadha",
+    "mood": "romantic",
+    "language": "telugu",
+    "url": "songs/kalala_kadha.mp3",
+    "youtube_channel": "https://www.youtube.com/@MRTMusic"
+  },
+  {
+    "title": "Kadhal Mazhai",
+    "mood": "romantic",
+    "language": "tamil",
+    "url": "songs/kadhal_mazhai.mp3",
+    "youtube_channel": "https://www.youtube.com/@thinkmusicindia"
+  },
+  {
+    "title": "Idhayam Pesum",
+    "mood": "romantic",
+    "language": "tamil",
+    "url": "songs/idhayam_pesum.mp3",
+    "youtube_channel": "https://www.youtube.com/@SonyMusicSouth"
+  },
+  {
+    "title": "Anbe Thendral",
+    "mood": "romantic",
+    "language": "tamil",
+    "url": "songs/anbe_thendral.mp3",
+    "youtube_channel": "https://www.youtube.com/@LahariMusic"
+  }
+]
